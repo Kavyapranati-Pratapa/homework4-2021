@@ -94,16 +94,17 @@ tr:nth-child(even){
   background: #d1d1d1;
 }
 /*Req 6f*/
-th.rowhead:hover{
- background: rgba(255, 255, 255, 0.25)
+tr:hover{
+ background: rgba(126, 8, 32, 0.25);
 }
 
 
 /*Req 7*/
 table{
-    border: 2px solid #000000;
-    margin-left: auto;
-    margin-right: auto;
+    border-top: 2px solid #000000;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-collapse: inherit;
 }
 
 thead tr:first-child th:first-child{
@@ -131,6 +132,6 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
 }
 
