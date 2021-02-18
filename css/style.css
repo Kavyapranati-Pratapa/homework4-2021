@@ -81,6 +81,7 @@ td{
   vertical-align: middle;
   padding:10px;
   background-color:#7e0820;
+  text-transform:uppercase;
 }
 /*Req 6c*/
 .rowhead{
@@ -127,11 +128,13 @@ tbody tr:last-child td:last-child{
 
 /*Req 8*/
 footer{
-  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
   position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
 }
 
