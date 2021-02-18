@@ -102,7 +102,7 @@ tr:hover{
 
 /*Req 7*/
 table{
-    border-top: 2px solid #000000;
+    border: 2px solid #000000;
     margin: 0 auto;
     border-radius: 10px;
     border-collapse: inherit;
